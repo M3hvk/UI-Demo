@@ -41,5 +41,5 @@ Changing the JSON changes the UI **without modifying app code**.
 
 ---
 
-## 📂 Project Structure
+
 
