@@ -1,0 +1,18 @@
+{
+  "screen": "promo_page",
+  "components": [
+    {
+      "type": "text",
+      "value": "Welcome to Pizza Week!"
+    },
+    {
+      "type": "image",
+      "url": "https://tse1.mm.bing.net/th/id/OIP.tTLE50O9Da0dbTTJ4mkJ0wHaFA?rs=1&pid=ImgDetMain&o=7&rm=3"
+    },
+    {
+      "type": "button",
+      "text": "Order Now",
+      "action": "navigate_to_menu"
+    }
+  ]
+}
