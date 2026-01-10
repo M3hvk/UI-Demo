@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Server-Driven UI in React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project demonstrates a basic **Server-Driven UI (SDUI)** implementation using **React Native** and **Expo**.
 
-## Get started
+Instead of hardcoding UI screens, the app renders the UI dynamically based on a JSON configuration that simulates a server response.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 📌 What is Server-Driven UI?
 
-2. Start the app
+Server-Driven UI means the mobile app does not decide what the screen looks like.
 
-   ```bash
-   npx expo start
-   ```
+Instead:
+- The **server sends UI instructions as JSON**
+- The app **reads this JSON**
+- The app **renders UI components dynamically**
 
-In the output, you'll find options to open the app in a
+Changing the JSON changes the UI **without modifying app code**.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Features
 
-## Get a fresh project
+- Dynamic rendering of UI from JSON
+- Generic UI Renderer
+- Support for:
+  - Text
+  - Image
+  - Button
+- Mocked server response (local JSON)
+- Clean and scalable folder structure
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 🛠 Tech Stack
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- React Native
+- Expo 
+- TypeScript
+- Mock JSON (dynamic)
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📂 Project Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
