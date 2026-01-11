@@ -37,9 +37,9 @@ Changing the JSON changes the UI **without modifying app code**.
 - React Native
 - Expo 
 - TypeScript
-- Mock JSON (dynamic)
+- Mock JSON
 
----
-
+FIle structure
+<img width="367" height="827" alt="Screenshot 2026-01-10 212745" src="https://github.com/user-attachments/assets/a2fcdb1f-7b51-4a3a-84a9-66913c327e0e" />
 
 
